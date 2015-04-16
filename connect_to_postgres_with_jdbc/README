@@ -1,0 +1,23 @@
+## README for jdbc_ps
+This is a sample source which connects to PostgreSQL and executes Prepared Statements.
+
+## BUILD
+
+```
+$ javac jdbc_ps.java
+```
+
+## RUN
+Start PostgreSQL
+Create target table
+Download PostgreSQL JDBC Driver
+Set CLASSPATH
+
+```
+$ export CLASSPATH=/path/to/jdbc_driver.jar:$CLASSPATH
+```
+RUN
+
+```
+$ java jdbc_ps
+```
